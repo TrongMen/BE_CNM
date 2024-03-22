@@ -122,7 +122,6 @@ const deleteUser = (id) => {
                 });
             }
             await User.findByIdAndDelete(id);
-
             // console.log('updateUser', updateUser);
             // console.log('access_Token', access_Token);
             resolve({
